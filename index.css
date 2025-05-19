@@ -1,0 +1,74 @@
+:root {
+    /* Generic colors */
+    --white: #FFFFFF;
+    --primary-color: #484141;
+    --secondary-color: #A5CDDF;
+    /* Text colors */
+ 
+    --milk-color: #A9A9A9;
+  
+    --faint-text-color: #48414199;
+    --red-text: #FF3333;
+
+    /* Container colors */
+    --main-container-color: #F2F0F1;
+    --card-container-color: #F0EEED;
+    --cta-container-1: #171717;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--primary-color );
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400px;
+    font-size: 1rem;
+    max-width: 1440px;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+button>img, input>img, a>img {
+    max-width: 24px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a, button, input {
+    font-family: inherit;
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    height: 50px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: var(--secondary-color);
+    border: none;
+}
+
+input {
+    font-size: 1rem;
+    font-weight: 400;
+    border: none;
+    outline: none;
+}
+
+header, section, footer {
+    padding: 40px 100px;
+}
